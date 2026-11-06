@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>preview</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        background: #1a1b1c;
+      }
+      iframe {
+        display: block;
+        border: 0;
+        transform-origin: top left;
+      }
+    </style>
+  </head>
+  <body>
+    <iframe id="f" src="/"></iframe>
+    <script>
+      const params = new URLSearchParams(location.search);
+      const w = parseInt(params.get('w') || '1440', 10);
+      const h = parseInt(params.get('h') || '900', 10);
+      const f = document.getElementById('f');
+      f.style.width = w + 'px';
+      f.style.height = h + 'px';
+      const avail = Math.min(window.innerWidth || 1280, 1800);
+      if (w > avail) {
+        f.style.transform = 'scale(' + avail / w + ')';
+      }
+    </script>
+  </body>
+</html>

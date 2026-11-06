@@ -1,0 +1,83 @@
+[
+  {
+    "id": "5ca",
+    "role": { "tr": "Müşteri Destek Uzmanı", "en": "Customer Support Specialist" },
+    "company": "5CA",
+    "location": { "tr": "Uzaktan", "en": "Remote" },
+    "period": { "tr": "Şub 2025 — Tem 2025", "en": "Feb 2025 — Jul 2025" },
+    "remote": true,
+    "bullets": [
+      {
+        "tr": "60+ günlük bilet; teknik destek, müşteri deneyimi ve olay çözümü kuyrukları.",
+        "en": "60+ daily tickets across technical support, customer experience and incident queues."
+      },
+      {
+        "tr": "EMEA genelinde L1/L2 uzaktan destek; akıcı İngilizce ile teknik sorun giderme.",
+        "en": "L1/L2 remote support across EMEA, troubleshooting in fluent English."
+      },
+      {
+        "tr": "Prompt engineering ve AI iş akışlarıyla ilk yanıt süresi ve CSAT iyileştirmesi.",
+        "en": "Improved first response time and CSAT with prompt engineering and AI workflows."
+      }
+    ]
+  },
+  {
+    "id": "koc",
+    "role": { "tr": "Service Desk Uzmanı", "en": "Service Desk Specialist" },
+    "company": "Koç Üniversitesi",
+    "location": { "tr": "İstanbul, Türkiye", "en": "Istanbul, Türkiye" },
+    "period": { "tr": "Nis 2023 — Tem 2023", "en": "Apr 2023 — Jul 2023" },
+    "bullets": [
+      {
+        "tr": "Jira Service Desk üzerinden 50+ günlük talep; %95+ SLA uyumu.",
+        "en": "50+ daily requests through Jira Service Desk with 95%+ SLA compliance."
+      },
+      {
+        "tr": "1.000+ kullanıcıya L1/L2 destek; SAP roller, yetkilendirme ve Active Directory provisioning.",
+        "en": "L1/L2 support for 1,000+ users; SAP roles, authorisation and Active Directory provisioning."
+      },
+      {
+        "tr": "İlk hat canlı destek ve eskalasyon yollarıyla çözüm süresini kısalttım.",
+        "en": "Shortened resolution time through first-line live chat and clearer escalation paths."
+      }
+    ]
+  },
+  {
+    "id": "uzman-iste",
+    "role": { "tr": "BT Danışmanı", "en": "IT Consultant" },
+    "company": "Uzman İste",
+    "location": { "tr": "İstanbul, Türkiye", "en": "Istanbul, Türkiye" },
+    "period": { "tr": "Eyl 2022 — Nis 2023", "en": "Sep 2022 — Apr 2023" },
+    "bullets": [
+      {
+        "tr": "TeamViewer ile donanım, yazılım ve yerel ağ sorunlarına uzaktan destek.",
+        "en": "Remote support for hardware, software and local network issues via TeamViewer."
+      },
+      {
+        "tr": "Yapılandırılmış kök neden analiziyle tekrarlayan olaylarda %25 azalma.",
+        "en": "Reduced recurring incidents by 25% with structured root cause analysis."
+      },
+      {
+        "tr": "Telefon, e-posta ve bilet kanallarını tek akışta hızlandırma.",
+        "en": "Streamlined phone, email and ticketing channels into one flow."
+      }
+    ]
+  },
+  {
+    "id": "webhelp",
+    "role": { "tr": "Müşteri Hizmetleri Temsilcisi", "en": "Customer Service Representative" },
+    "company": "Webhelp",
+    "location": { "tr": "İstanbul, Türkiye", "en": "Istanbul, Türkiye" },
+    "period": { "tr": "May 2022 — Ağu 2022", "en": "May 2022 — Aug 2022" },
+    "bullets": [
+      {
+        "tr": "Günlük 50+ gelen etkileşim; yüksek hizmet standardı.",
+        "en": "50+ inbound interactions per day with a high service standard."
+      },
+      {
+        "tr": "AHT ve müşteri deneyimini yapılandırılmış sorun tespitiyle iyileştirme.",
+        "en": "Improved AHT and customer experience through structured problem identification."
+      }
+    ]
+  }
+]

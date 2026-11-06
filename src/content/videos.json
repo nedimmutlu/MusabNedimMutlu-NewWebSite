@@ -1,0 +1,216 @@
+[
+  {
+    "id": "showreel-2026",
+    "kind": "showreel",
+    "title": {
+      "tr": "Showreel 2026",
+      "en": "Showreel 2026"
+    },
+    "description": {
+      "tr": "Nedim, Mihrimah, Suat Mutlu, GanoSOAP ve Soyer Oto Pratix işlerinden kısa bir kesit. Işık, doku ve hareket üzerine yirmi altı saniye.",
+      "en": "A short cut from Nedim, Mihrimah, Suat Mutlu, GanoSOAP and Soyer Oto Pratix — twenty-six seconds on light, texture and motion."
+    },
+    "src": "/media/videos/showreel.mp4",
+    "poster": "/media/posters/showreel.jpg",
+    "duration": "00:26",
+    "year": "2026",
+    "category": "showreel",
+    "categoryLabel": {
+      "tr": "Showreel",
+      "en": "Showreel"
+    },
+    "orientation": "landscape",
+    "tools": [
+      "AI video",
+      "CapCut",
+      "Colour"
+    ],
+    "credits": {
+      "tr": "Kurgu & renk — Musab Nedim Mutlu",
+      "en": "Edit & grade — Musab Nedim Mutlu"
+    },
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "nedim",
+    "kind": "work",
+    "title": {
+      "tr": "Nedim",
+      "en": "Nedim"
+    },
+    "description": {
+      "tr": "Musab Nedim Mutlu'yu tanıtan, yapay zekâ ile üretilmiş sinematik bir portre.",
+      "en": "A cinematic AI portrait introducing Musab Nedim Mutlu."
+    },
+    "src": "/media/videos/nedim.mp4",
+    "poster": "/media/posters/nedim.jpg",
+    "duration": "00:52",
+    "year": "2026",
+    "category": "film",
+    "categoryLabel": {
+      "tr": "Film",
+      "en": "Film"
+    },
+    "orientation": "landscape",
+    "tools": [
+      "AI video",
+      "CapCut",
+      "Colour"
+    ],
+    "credits": {
+      "tr": "Fikir, prompt & kurgu — Musab Nedim Mutlu",
+      "en": "Idea, prompt & edit — Musab Nedim Mutlu"
+    },
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "mihrimah",
+    "kind": "work",
+    "title": {
+      "tr": "Mihrimah",
+      "en": "Mihrimah"
+    },
+    "client": {
+      "tr": "Bağımsız belgesel",
+      "en": "Independent documentary"
+    },
+    "description": {
+      "tr": "Mihrimah’ın suyla kurduğu dünyaya yakın bir portre: antrenman, disiplin ve madalya. Bir yüzücünün sessiz ama kararlı ritmi.",
+      "en": "A close portrait of Mihrimah’s world in the water: training, discipline and the medal. The quiet, determined rhythm of a swimmer."
+    },
+    "src": "/media/videos/mihrimah.mp4",
+    "poster": "/media/posters/mihrimah.jpg",
+    "duration": "01:08",
+    "year": "2026",
+    "category": "documentary",
+    "categoryLabel": {
+      "tr": "Belgesel",
+      "en": "Documentary"
+    },
+    "orientation": "landscape",
+    "tools": [
+      "AI video",
+      "CapCut",
+      "Colour"
+    ],
+    "credits": {
+      "tr": "Yönetim & kurgu — Musab Nedim Mutlu",
+      "en": "Direction & edit — Musab Nedim Mutlu"
+    },
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "suat-mutlu",
+    "kind": "work",
+    "title": {
+      "tr": "Güvenle Yola Devam",
+      "en": "Drive with Confidence"
+    },
+    "client": {
+      "tr": "Suat Mutlu · Madeni Yağ",
+      "en": "Suat Mutlu · Mineral Oil"
+    },
+    "description": {
+      "tr": "Madeni yağ ve bor teknolojileri markası Suat Mutlu için sinematik bir marka filmi. Otomobil, motor ve ürünün dokusu aynı ritimde.",
+      "en": "A cinematic brand film for mineral oil and boron technology company Suat Mutlu — car, engine and product texture in one rhythm."
+    },
+    "src": "/media/videos/suat-mutlu.mp4",
+    "poster": "/media/posters/suat-mutlu.jpg",
+    "duration": "00:45",
+    "year": "2026",
+    "category": "commercial",
+    "categoryLabel": {
+      "tr": "Reklam Filmi",
+      "en": "Commercial"
+    },
+    "orientation": "landscape",
+    "tools": [
+      "AI video",
+      "CapCut",
+      "Colour"
+    ],
+    "credits": {
+      "tr": "Fikir, prompt & kurgu — Musab Nedim Mutlu",
+      "en": "Idea, prompt & edit — Musab Nedim Mutlu"
+    },
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "gano-soap",
+    "kind": "work",
+    "title": {
+      "tr": "GanoSOAP",
+      "en": "GanoSOAP"
+    },
+    "client": {
+      "tr": "Mine Mutlu · GanoExcel",
+      "en": "Mine Mutlu · GanoExcel"
+    },
+    "description": {
+      "tr": "GanoSOAP için ürün odaklı, sıcak ışıklı bir reklam filmi. Doğal içerikler, köpük ve cilt bakımı etrafında on sekiz saniye.",
+      "en": "A product-led, warm-lit commercial for GanoSOAP — eighteen seconds around natural ingredients, foam and skincare."
+    },
+    "src": "/media/videos/gano-soap.mp4",
+    "poster": "/media/posters/gano-soap.jpg",
+    "duration": "00:18",
+    "year": "2026",
+    "category": "commercial",
+    "categoryLabel": {
+      "tr": "Reklam Filmi",
+      "en": "Commercial"
+    },
+    "orientation": "portrait",
+    "tools": [
+      "AI video",
+      "CapCut",
+      "Gemini"
+    ],
+    "credits": {
+      "tr": "Fikir, prompt & kurgu — Musab Nedim Mutlu",
+      "en": "Idea, prompt & edit — Musab Nedim Mutlu"
+    },
+    "featured": true,
+    "published": true
+  },
+  {
+    "id": "oto-pratix",
+    "kind": "work",
+    "title": {
+      "tr": "Soyer Oto Pratix",
+      "en": "Soyer Oto Pratix"
+    },
+    "client": {
+      "tr": "Soyer Oto Pratix · Malatya",
+      "en": "Soyer Oto Pratix · Malatya"
+    },
+    "description": {
+      "tr": "Malatya’daki Soyer Oto Pratix için yerel bir servisin günlük ritmini sinematik bir dille anlatan dikey reklam filmi.",
+      "en": "A vertical commercial for Soyer Oto Pratix in Malatya — the daily rhythm of a local garage, told cinematically."
+    },
+    "src": "/media/videos/oto-pratix.mp4",
+    "poster": "/media/posters/oto-pratix.jpg",
+    "duration": "00:44",
+    "year": "2026",
+    "category": "commercial",
+    "categoryLabel": {
+      "tr": "Reklam Filmi",
+      "en": "Commercial"
+    },
+    "orientation": "portrait",
+    "tools": [
+      "AI video",
+      "CapCut",
+      "Colour"
+    ],
+    "credits": {
+      "tr": "Fikir, prompt & kurgu — Musab Nedim Mutlu",
+      "en": "Idea, prompt & edit — Musab Nedim Mutlu"
+    },
+    "featured": true,
+    "published": true
+  }
+]

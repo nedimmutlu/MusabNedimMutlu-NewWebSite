@@ -1,0 +1,18 @@
+[
+  {
+    "value": "95%+",
+    "label": { "tr": "SLA uyumu", "en": "SLA compliance" }
+  },
+  {
+    "value": "1.000+",
+    "label": { "tr": "desteklenen kullanıcı", "en": "users supported" }
+  },
+  {
+    "value": "25%",
+    "label": { "tr": "daha az tekrarlayan olay", "en": "fewer recurring incidents" }
+  },
+  {
+    "value": "50–60+",
+    "label": { "tr": "günlük bilet", "en": "tickets per day" }
+  }
+]

@@ -1,0 +1,327 @@
+# Pages CMS configuration
+# Docs: https://pagescms.org/docs/configuration/
+#
+# Everything the site shows (except interface labels) lives in src/content/*.json.
+# Upload videos/posters/portrait/CV here, then edit the matching JSON entry.
+
+media:
+  - name: images
+    label: Portrait & social image
+    input: public/media
+    output: /media
+    categories: [image]
+    rename: false
+  - name: posters
+    label: Video posters
+    input: public/media/posters
+    output: /media/posters
+    categories: [image]
+    rename: false
+  - name: videos
+    label: Videos
+    input: public/media/videos
+    output: /media/videos
+    categories: [video]
+    rename: false
+  - name: documents
+    label: CV & documents
+    input: public/cv
+    output: /cv
+    categories: [document]
+    rename: false
+
+components:
+  localizedString:
+    type: object
+    label: Türkçe / English
+    fields:
+      - name: tr
+        label: Türkçe
+        type: string
+      - name: en
+        label: English
+        type: string
+
+  localizedText:
+    type: object
+    label: Türkçe / English
+    fields:
+      - name: tr
+        label: Türkçe
+        type: text
+      - name: en
+        label: English
+        type: text
+
+content:
+  - name: profile
+    label: Profil & iletişim
+    type: file
+    path: src/content/profile.json
+    format: json
+    fields:
+      - name: name
+        label: Ad soyad
+        type: string
+        required: true
+      - name: firstName
+        label: Ad
+        type: string
+        required: true
+      - name: email
+        label: E-posta
+        type: string
+        required: true
+      - name: phone
+        label: Telefon (görünen)
+        type: string
+      - name: phoneHref
+        label: "Telefon (tel: bağlantısı)"
+        type: string
+      - name: linkedin
+        label: LinkedIn URL
+        type: string
+      - name: github
+        label: GitHub URL
+        type: string
+      - name: cv
+        label: CV dosyası
+        type: file
+        options:
+          media: documents
+          categories: [document]
+      - name: portrait
+        label: Portre fotoğrafı (headshot)
+        type: image
+        options:
+          media: images
+          categories: [image]
+      - name: ogImage
+        label: Paylaşım görseli (1200×630)
+        type: image
+        options:
+          media: images
+          categories: [image]
+
+  - name: videos
+    label: Videolar & showreel
+    type: file
+    path: src/content/videos.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Kalıcı kimlik (slug)
+        type: string
+        required: true
+        pattern: '^[a-z0-9-]+$'
+      - name: kind
+        label: Tür
+        type: select
+        options:
+          values: [work, showreel]
+        default: work
+        required: true
+      - name: title
+        label: Başlık
+        component: localizedString
+        required: true
+      - name: client
+        label: Müşteri
+        component: localizedString
+      - name: description
+        label: Açıklama
+        component: localizedText
+        required: true
+      - name: src
+        label: Video dosyası
+        type: file
+        options:
+          media: videos
+          categories: [video]
+        required: true
+      - name: poster
+        label: Kapak görseli
+        type: image
+        options:
+          media: posters
+          categories: [image]
+        required: true
+      - name: duration
+        label: Süre (örn. 00:45)
+        type: string
+        required: true
+      - name: year
+        label: Yıl
+        type: string
+        required: true
+      - name: category
+        label: Kategori
+        type: select
+        options:
+          values: [film, commercial, documentary, showreel]
+        required: true
+      - name: categoryLabel
+        label: Kategori etiketi
+        component: localizedString
+        required: true
+      - name: orientation
+        label: Yön
+        type: select
+        options:
+          values: [landscape, portrait]
+        default: landscape
+        required: true
+      - name: tools
+        label: Araçlar
+        type: string
+        list: true
+      - name: credits
+        label: Emeği geçenler
+        component: localizedString
+      - name: featured
+        label: Öne çıkan
+        type: boolean
+        default: false
+      - name: published
+        label: Yayında
+        type: boolean
+        default: true
+
+  - name: experience
+    label: Deneyim
+    type: file
+    path: src/content/experience.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Kalıcı kimlik
+        type: string
+        required: true
+      - name: role
+        label: Pozisyon
+        component: localizedString
+        required: true
+      - name: company
+        label: Şirket
+        type: string
+        required: true
+      - name: location
+        label: Konum
+        component: localizedString
+      - name: period
+        label: Dönem
+        component: localizedString
+      - name: remote
+        label: Uzaktan
+        type: boolean
+        default: false
+      - name: bullets
+        label: Maddeler
+        type: object
+        list: true
+        fields:
+          - name: tr
+            label: Türkçe
+            type: text
+          - name: en
+            label: English
+            type: text
+
+  - name: projects
+    label: Projeler
+    type: file
+    path: src/content/projects.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Kalıcı kimlik
+        type: string
+        required: true
+      - name: index
+        label: Sıra (01, 02…)
+        type: string
+      - name: title
+        label: Başlık
+        component: localizedString
+        required: true
+      - name: subtitle
+        label: Alt başlık
+        component: localizedString
+      - name: description
+        label: Açıklama
+        component: localizedText
+      - name: bullets
+        label: Maddeler
+        type: object
+        list: true
+        fields:
+          - name: tr
+            label: Türkçe
+            type: text
+          - name: en
+            label: English
+            type: text
+      - name: tags
+        label: Etiketler
+        type: string
+        list: true
+      - name: github
+        label: GitHub URL
+        type: string
+      - name: status
+        label: Durum
+        type: select
+        options:
+          values: [completed, inProgress]
+        default: completed
+      - name: icon
+        label: İkon
+        type: select
+        options:
+          values: [phone, workflow, code]
+        default: code
+
+  - name: skills
+    label: Beceriler
+    type: file
+    path: src/content/skills.json
+    format: json
+    list: true
+    fields:
+      - name: id
+        label: Kalıcı kimlik
+        type: string
+        required: true
+      - name: index
+        label: Sıra (01, 02…)
+        type: string
+      - name: name
+        label: Alan adı
+        component: localizedString
+        required: true
+      - name: description
+        label: Açıklama
+        component: localizedText
+      - name: items
+        label: Alt başlıklar
+        type: string
+        list: true
+
+  - name: metrics
+    label: Sayılar
+    type: file
+    path: src/content/metrics.json
+    format: json
+    list: true
+    fields:
+      - name: value
+        label: Değer (örn. 95%+)
+        type: string
+        required: true
+      - name: label
+        label: Etiket
+        component: localizedString
+        required: true

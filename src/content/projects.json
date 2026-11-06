@@ -1,0 +1,79 @@
+[
+  {
+    "id": "android",
+    "index": "01",
+    "title": { "tr": "Native Android uygulamaları", "en": "Native Android applications" },
+    "subtitle": { "tr": "Kotlin / Jetpack Compose & REST", "en": "Kotlin / Jetpack Compose & REST" },
+    "description": {
+      "tr": "AI destekli iş akışlarıyla geliştirdiğim, ağ bağlantısı ve arka plan zamanlaması olan üretime hazır Android uygulamaları.",
+      "en": "Production-ready Android apps built through AI-assisted workflows, with network handling and resilient background scheduling."
+    },
+    "bullets": [
+      {
+        "tr": "REST API entegrasyonları; JSON ayrıştırma ve hata sınırları.",
+        "en": "REST API integrations with JSON parsing and error boundaries."
+      },
+      {
+        "tr": "AlarmManager ve WorkManager ile arka plan görevleri.",
+        "en": "Background tasks with AlarmManager and WorkManager."
+      },
+      {
+        "tr": "Uçtan uca uygulama yaşam döngüsü, hata ayıklama ve log takibi.",
+        "en": "End-to-end app lifecycle, debugging and log tracking."
+      }
+    ],
+    "tags": ["Kotlin", "Jetpack Compose", "REST", "WorkManager", "AI-assisted"],
+    "github": "https://github.com/nedimmutlu",
+    "status": "completed",
+    "icon": "phone"
+  },
+  {
+    "id": "incident-triage",
+    "index": "02",
+    "title": { "tr": "AI destekli olay triyajı", "en": "AI-assisted incident triage" },
+    "subtitle": {
+      "tr": "Destek operasyonları & log otomasyonu",
+      "en": "Support operations & log automation"
+    },
+    "description": {
+      "tr": "Yüksek hacimli hata loglarını ayrıştıran, tekrarlayan biletleri kategorize eden ve L2 ekipleri için ön RCA özeti hazırlayan prompt ve otomasyon akışları.",
+      "en": "Prompt and automation pipelines that parse high-volume error logs, categorise recurring tickets and draft initial RCA summaries for L2 teams."
+    },
+    "bullets": [
+      {
+        "tr": "Bilet gövdelerini ITIL şemalarına dönüştüren triyaj akışı.",
+        "en": "A triage flow that turns ticket bodies into ITIL schemas."
+      },
+      {
+        "tr": "Çökme loglarını analiz edip bilgi tabanı çözümü öneren prompt hattı.",
+        "en": "A prompt chain that reads crash logs and suggests knowledge-base fixes."
+      },
+      {
+        "tr": "Daha hızlı ilk yanıt ve vardiyalar arası çözüm tutarlılığı.",
+        "en": "Faster first response and consistent resolution across shifts."
+      }
+    ],
+    "tags": ["Prompt engineering", "ITIL", "RCA", "Log analysis", "Claude"],
+    "github": "https://github.com/nedimmutlu",
+    "status": "completed",
+    "icon": "workflow"
+  },
+  {
+    "id": "github",
+    "index": "03",
+    "title": { "tr": "GitHub portföyü", "en": "GitHub portfolio" },
+    "subtitle": { "tr": "Kişisel laboratuvar & açık kaynak", "en": "Personal lab & open source" },
+    "description": {
+      "tr": "Mobil araçlar, IT otomasyon scriptleri ve geliştirici prototipleri için merkezi kod alanı. Sürekli güncelleniyor.",
+      "en": "A central code space for mobile tools, IT automation scripts and developer prototypes. Continuously updated."
+    },
+    "bullets": [
+      { "tr": "Android demoları ve altyapı araçları.", "en": "Android demos and infrastructure utilities." },
+      { "tr": "Açık kaynak denemeleri ve dokümantasyon.", "en": "Open-source experiments and documentation." }
+    ],
+    "tags": ["GitHub", "Open source", "Android", "Shell"],
+    "github": "https://github.com/nedimmutlu",
+    "status": "inProgress",
+    "icon": "code"
+  }
+]

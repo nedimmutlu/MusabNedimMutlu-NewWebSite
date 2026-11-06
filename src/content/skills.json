@@ -1,0 +1,104 @@
+[
+  {
+    "id": "film",
+    "index": "01",
+    "name": { "tr": "AI Film & Anlatı", "en": "AI Film & Narrative" },
+    "description": {
+      "tr": "Fikirden final kurguya kadar üretim: prompt tasarımı, görsel tutarlılık, ritim ve ses.",
+      "en": "Production from idea to final cut: prompt design, visual consistency, rhythm and sound."
+    },
+    "items": [
+      "Prompt design",
+      "Image-to-video",
+      "Shot planning",
+      "Narrative editing",
+      "Sound & colour",
+      "Wan 3.0 · Gemini · CapCut"
+    ]
+  },
+  {
+    "id": "support",
+    "index": "02",
+    "name": { "tr": "IT Destek & Servis Masası", "en": "IT Support & Service Desk" },
+    "description": {
+      "tr": "Yüksek hacimli kuyruklarda L1/L2 sorun giderme, log analizi ve doğru eskalasyon.",
+      "en": "L1/L2 troubleshooting, log analysis and the right escalation in high-volume queues."
+    },
+    "items": [
+      "L1/L2 incident resolution",
+      "Remote troubleshooting",
+      "Log analysis",
+      "Hardware / software triage",
+      "Ticket prioritisation",
+      "Knowledge base"
+    ]
+  },
+  {
+    "id": "systems",
+    "index": "03",
+    "name": { "tr": "Sistemler & IAM", "en": "Systems & IAM" },
+    "description": {
+      "tr": "Kullanıcı, yetki ve erişim süreçlerinin uçtan uca yönetimi.",
+      "en": "End-to-end management of users, roles and access."
+    },
+    "items": [
+      "Active Directory",
+      "SAP user & authorization",
+      "Microsoft 365 admin",
+      "Access provisioning",
+      "Permission audits",
+      "Identity & access management"
+    ]
+  },
+  {
+    "id": "itsm",
+    "index": "04",
+    "name": { "tr": "ITSM & Çerçeveler", "en": "ITSM & Frameworks" },
+    "description": {
+      "tr": "ITIL odaklı süreçler, kök neden analizi ve ölçülebilir hizmet kalitesi.",
+      "en": "ITIL-led processes, root cause analysis and measurable service quality."
+    },
+    "items": [
+      "Jira Service Management",
+      "Zendesk",
+      "ITIL",
+      "Root cause analysis",
+      "Escalation paths",
+      "SLA management"
+    ]
+  },
+  {
+    "id": "aiops",
+    "index": "05",
+    "name": { "tr": "Modern Araçlar & AI Ops", "en": "Modern Tooling & AI Ops" },
+    "description": {
+      "tr": "Tekrarlayan işleri otomatikleştiren, hızlı prototiplenen iç araçlar.",
+      "en": "Internal tools that automate repetitive work and get prototyped fast."
+    },
+    "items": [
+      "Claude & Cursor",
+      "LLM workflows",
+      "Prompt engineering",
+      "Rapid prototyping",
+      "Internal scripting",
+      "Process automation"
+    ]
+  },
+  {
+    "id": "network",
+    "index": "06",
+    "name": { "tr": "Ağ & Uzaktan İşbirliği", "en": "Network & Remote Collaboration" },
+    "description": {
+      "tr": "Bağlantı sorunlarını katman katman çözen pratik ağ bilgisi.",
+      "en": "Practical network knowledge that solves connectivity issues layer by layer."
+    },
+    "items": [
+      "TCP/IP & DNS",
+      "VPN troubleshooting",
+      "LAN diagnostics",
+      "TeamViewer",
+      "Slack & MS Teams",
+      "Remote support"
+    ]
+  }
+]
